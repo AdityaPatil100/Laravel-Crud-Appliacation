@@ -17,4 +17,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('create');
 });
-Route::resource('user', CrudsController::class);
+Route::resource('/user', CrudsController::class);
